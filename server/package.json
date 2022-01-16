@@ -24,7 +24,7 @@
     "moment": "^2.24.0",
     "mongodb": "*",
     "morgan": "*",
-    "nodemailer": "^6.4.6",
+    "nodemailer": "^6.6.1",
     "nodemailer-express-handlebars": "^4.0.0",
     "nodemon": "^2.0.2",
     "socket.io": "^2.4.1"
