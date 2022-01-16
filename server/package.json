@@ -1,0 +1,35 @@
+{
+  "name": "chat-server",
+  "version": "0.0.1",
+  "description": "node server starter code",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Leo Mei <liqiangmei@outlook.com> (https://leomei.site)",
+  "license": "MIT",
+  "dependencies": {
+    "blueimp-md5": "^2.12.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "*",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "debug": "*",
+    "dotenv": "^8.2.0",
+    "ejs": "*",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "http-errors": "*",
+    "moment": "^2.24.0",
+    "mongodb": "*",
+    "morgan": "*",
+    "nodemailer": "^6.4.6",
+    "nodemailer-express-handlebars": "^4.0.0",
+    "nodemon": "^2.0.2",
+    "socket.io": "^2.4.1"
+  },
+  "devDependencies": {
+    "@types/socket.io": "^3.0.2"
+  }
+}

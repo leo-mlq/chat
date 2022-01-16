@@ -1,0 +1,29 @@
+This is a static file
+<!-- served from your routes in server.js -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Welcome to Glitch!</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="node server starter code" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="resources/style.css" />
+
+    <!-- import the webpage's client-side javascript file -->
+    <script src="resources/script.js" defer></script>
+    <script type="text/javascript">
+      var getUrl = window.location;
+      var baseUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1]+ "/" ;
+      console.log(baseUrl);
+      $("base").attr("href", baseUrl);
+    </script>
+  </head>
+  <body>
+    <header>
+      <h1>Node Server Starter Code</h1>
+    </header>
+  </body>
+</html>
