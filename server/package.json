@@ -21,7 +21,7 @@
     "express": "^4.17.1",
     "fs": "0.0.1-security",
     "http-errors": "*",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "mongodb": "*",
     "morgan": "*",
     "nodemailer": "^6.4.6",
