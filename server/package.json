@@ -26,7 +26,7 @@
     "morgan": "*",
     "nodemailer": "^6.4.6",
     "nodemailer-express-handlebars": "^4.0.0",
-    "nodemon": "^2.0.2",
+    "nodemon": "^2.0.20",
     "socket.io": "^2.4.1"
   },
   "devDependencies": {
